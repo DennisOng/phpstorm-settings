@@ -1,0 +1,25 @@
+<templateSet group="JavaScript">
+  <template name="cl" value="console.log($END$)" description="Console.log" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="oc" value="$( &quot;$END$&quot; ).on( &quot;click&quot;, function() {&#10;&#10;});" description="jQuery onClick" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="dr" value="$( document ).ready(function() {&#10;    $END$&#10;});" description="jQuery Document Ready" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="each" value="$.each($ARRAY$, function($KEY$, $VAL$) {&#10;    $END$&#10;});" description="jQuery Each" toReformat="false" toShortenFQNames="true">
+    <variable name="ARRAY" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="KEY" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

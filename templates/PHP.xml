@@ -1,0 +1,22 @@
+<templateSet group="PHP">
+  <template name="gf" value="get_field('$END$')" description="ACF Get Field" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="tf" value="the_field('$END$')" description="ACF echo the field" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="&lt;?" value="&lt;?php " description="PHP Opening Tag" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="test" value="/** @test */&#10;public function $END$()&#10;{&#10;}" description="Create PHPUnit Test Function" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

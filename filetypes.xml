@@ -1,0 +1,22 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
+    <extensionMap>
+      <mapping pattern="*.js.flow" type="Flow" />
+      <mapping pattern="*.js.flow" type="Flow" />
+      <mapping pattern="tc-gravity-forms-australian-address.php" type="PHP" />
+      <mapping pattern="status" type="PLAIN_TEXT" />
+      <mapping pattern="AppendColourToAttachments" type="PLAIN_TEXT" />
+      <mapping pattern="page-right-sidebar-image-tile.php" type="PLAIN_TEXT" />
+      <mapping pattern="TeamPhotoController" type="PLAIN_TEXT" />
+      <mapping pattern="Javascript" type="PLAIN_TEXT" />
+      <mapping pattern=".gitattributes" type="PLAIN_TEXT" />
+      <mapping pattern="TeamNameController" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern="aliases" type="PLAIN_TEXT" />
+      <mapping pattern="app-spark" type="PLAIN_TEXT" />
+      <mapping ext="example" type="PLAIN_TEXT" />
+      <mapping ext="ttf" type="PLAIN_TEXT" />
+    </extensionMap>
+  </component>
+</application>
